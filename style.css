@@ -160,23 +160,23 @@ a{
     margin: 1.5rem;
     transition: all ease 0.4s;
     position: relative;
-
 }
-.pb{  position: absolute;  
+.pb{  
+    position: absolute;  
     left: 117px;
     height: 3rem;
-    z-index: 8;
-    
-    
-    
+    z-index: -1;
+    transition: all  ease-in;
 }
 .card:hover .pb{
-    
-    background-color: #232323;
     position: absolute;
+    z-index: 8;
     top: 115px;
-    left: 117px;
+    left:117px;
     
+}
+.card:hover{
+    background-color: #232323;    
 }
 .card-cont{
     display: flex;
